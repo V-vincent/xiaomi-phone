@@ -1,0 +1,22 @@
+*{margin:0;padding:0}
+li{list-style:none;}
+
+$topic_css:#FF5722;//主题颜色
+
+a{text-decoration:none;}
+
+a:hover{color:$topic_css;}
+
+h1,h2,h3,h4,h5,h6{
+	font-style: normal;
+	font-weight: normal;
+}
+
+//浮动布局
+@mixin flotter($width){
+	width:$width;
+	float:left;
+}
+
+.clear{overflow:hidden}
+img{width:100%}
